@@ -30,10 +30,10 @@ const footer_data = [
 const footer_content = {
     number: "+94 76 732 7788",
     email: "info@avesto.global",
-    des: (<>38 Queens Road, Colombo, <br/> Sri Lanka</>),
-    icon: ["fab fa-facebook-f", "fab fa-twitter", "fab fa-instagram"]
+    des: (<>38 Queens Road, Colombo, <br/> Sri Lanka</>)
+    // icon: ["fab fa-facebook-f", "fab fa-twitter", "fab fa-instagram"]
 }
-const { number, email, des, icon } = footer_content;
+const { number, email, des} = footer_content;
 const Footer = () => {
 
     return (
@@ -47,11 +47,11 @@ const Footer = () => {
                                     <h4 className="number">{number}</h4>
                                     <h4 className="email">{email} </h4>
                                     <p>{des}</p>
-                                    <ul className="footer-social list-wrap">
+                                    {/* <ul className="footer-social list-wrap">
                                         {icon.map((li, i) => (
                                             <li key={i}><Link href="#"><i className={li}></i></Link></li>
                                         ))}
-                                    </ul>
+                                    </ul> */}
                                 </div>
                             </div>
                         </div>

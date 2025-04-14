@@ -2,7 +2,6 @@
 import Link from "next/link";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Alert } from "bootstrap";
 
 
 const contact_data = [
